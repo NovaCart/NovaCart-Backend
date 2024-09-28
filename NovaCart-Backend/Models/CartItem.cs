@@ -7,6 +7,7 @@ namespace NovaCart_Backend.Models
         [Key] public int CaryItemId { get; set; }
         public int Quantity { get; set; }
 
+        public int ClothId { get; set; }
         public Cloth? Cloth { get; set; }
     }
 }

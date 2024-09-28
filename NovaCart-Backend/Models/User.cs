@@ -14,6 +14,7 @@ namespace NovaCart_Backend.Models
         public string? ProfileImageUrl { get; set; }
         public string? Address { get; set; }
 
+        public int CartId { get; set; }
         public Cart? Cart { get; set; }   //one to one relationship with cart
         public ICollection<Order>? Orders { get; set; }     //one to many
     }

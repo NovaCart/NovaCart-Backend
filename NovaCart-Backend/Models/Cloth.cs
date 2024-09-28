@@ -14,5 +14,6 @@ namespace NovaCart_Backend.Models
         public string? Occation { get; set; }
 
         public ICollection<CartItem>? CartItems { get; set; }
+        public ICollection<SizeAvailability>? SizeAvailability { get; set; }
     }
 }

@@ -10,6 +10,7 @@ namespace NovaCart_Backend.Models
         public decimal SubTotal { get; set; }
         public decimal ShippingFee { get; set; }
 
+        public int UserId { get; set; }
         public User? User { get; set; }
     }
 }
